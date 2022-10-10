@@ -8,3 +8,16 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    compileSdkVersion = 32
+    targetSdkVersion = 32
+    minSdk = 21
+    versionCode = 1
+    versionName = "1.0"
+    jvmTarget = "1.8"
+
+    core = "1.7.0"
+    appcompat = "1.4.2"
+    material = "1.6.1"
+}
