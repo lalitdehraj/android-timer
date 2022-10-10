@@ -16,3 +16,4 @@ rootProject.name = "Timer"
 include ':app'
 include ':core'
 include ':common-utils'
+include ':home-ui'
